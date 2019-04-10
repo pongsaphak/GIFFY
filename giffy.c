@@ -15,7 +15,7 @@ void write_secret_message_symbols(FILE* giffy)
 void write_comment_end(FILE* giffy)
 {
 	// if NETSCAPE 2.0 can do it, i can sign my work too
-  char signature[7] = "vipyne";
+  char signature[7] = "punbnk";
   flockfile(giffy);
   for (int i = 0; signature[i] != '\0'; ++i ) {
     putc_unlocked(signature[i], giffy);
@@ -196,7 +196,7 @@ void write_entire_comment(FILE* giffy, char* secret_message)
   write_secret_message_symbols(giffy);
   write_comment_end(giffy);
 
-  //  the -16 is to account for `____vipyne0x00`
+  //  the -16 is to account for `____punbnk0x00`
   fseek(giffy, -12 - length, SEEK_CUR); // rewind to length char
   fputc(length, giffy);
   fseek(giffy, 0L, SEEK_END);
