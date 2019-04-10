@@ -1,6 +1,6 @@
 # giffy
-![this dog has a secret](https://github.com/pongsaphak/giffy.git/reallyreadme.gif)
-![this dog fell down](hhttps://github.com/pongsaphak/giffy.git/readme.gif)
+![this pun has a secret](https://github.com/pongsaphak/giffy/reallypun.gif)
+![this pun fell down](hhttps://github.com/pongsaphak/giffy/pun.gif)
 
 
 Can you tell the difference between these two animated gifs? They *are* different. Open each in a hex editor if you don't believe me or... use this program to decode the secret message in the second one!
